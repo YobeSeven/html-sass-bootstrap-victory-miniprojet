@@ -73,3 +73,53 @@
     }
 
 }
+.sec-res{
+    // Pour les bg-image il faut mettre le chemin de app.css vers votre dossier qui contient les images 
+    background-image: url('../img/book-bg.jpg');
+
+    .box-titre-sec-res{
+        .titre-sec-res{
+            padding-top: 15px;
+        }
+    }
+    .conteneur{
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+
+        .fiche-sec-res{
+            .duo-fiche{
+                display: flex;
+                justify-content: space-around;
+
+                a{
+                    border: 0px solid;
+                    padding: 25px;
+                    background-color: red;
+                    color: white;
+                }
+            }
+        }
+
+    }
+
+    .footer-sec-res{
+        margin-top: 25px;
+        padding-top: 25px;
+        padding-bottom : 25px ;
+
+        .titre-footer-sec-res{
+            padding-bottom: 15px;
+        }
+
+        .lien-footer-sec-res{
+            text-align: center;
+            border: 0px solid;
+            background-color: white;
+            padding-top:10px;
+            padding-bottom: 10px;
+            padding-left: 13px;
+            padding-right:13px;
+        }
+    }
+}

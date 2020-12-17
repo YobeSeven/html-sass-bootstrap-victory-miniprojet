@@ -16400,3 +16400,49 @@ body .background-banner .texte-banner .boutton-banner {
   text-align: center;
   margin-top: 10px;
 }
+
+.sec-res {
+  background-image: url("../img/book-bg.jpg");
+}
+
+.sec-res .box-titre-sec-res .titre-sec-res {
+  padding-top: 15px;
+}
+
+.sec-res .conteneur {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+}
+
+.sec-res .conteneur .fiche-sec-res .duo-fiche {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sec-res .conteneur .fiche-sec-res .duo-fiche a {
+  border: 0px solid;
+  padding: 25px;
+  background-color: red;
+  color: white;
+}
+
+.sec-res .footer-sec-res {
+  margin-top: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.sec-res .footer-sec-res .titre-footer-sec-res {
+  padding-bottom: 15px;
+}
+
+.sec-res .footer-sec-res .lien-footer-sec-res {
+  text-align: center;
+  border: 0px solid;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 13px;
+  padding-right: 13px;
+}
