@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+
+    .tete-navbar{
+
+        .box-titre-navabr{
+
+            .titre-navbar{
+                font-family: 'spectral';
+            }
+        }
+
+        .hr-navbar{
+            width:400px ; 
+        }
+
+        .box-liste-option-navbar{
+            display: flex;
+            justify-content: space-around;
+    
+            .liste-option-navbar{
+                display:flex;
+                list-style-type: none;
+    
+                .option-navbar{
+                    margin-right: 30px;
+                    margin-left: 30px;
+                    
+                    .lien-navbar{
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+
+    .background-banner{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        img{
+            width: 100%;
+            position: absolute;
+
+        }
+        .texte-banner{
+            position: absolute;
+            color: white;
+            padding-top:200px;
+            font-family: 'spectral';
+
+            .boutton-banner{
+                border: 0px solid;
+                padding: 10px;
+                border-radius: 5px solid;
+                color: white;
+            }
+
+        }
+    }
+}
+

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEXTE POUR BOOTSTRAP</title>
+    <link rel="stylesheet" href="../public/css/app.css">
+</head>
+<body>
+                                        <!--
+                                             / veut dire "ou"
+                            en 1er les class à mettre , en second l'explication de la class
+                                         -->
+
+    <!-- 1- Couleurs pour Bootstrap -->
+
+        <!-- Les basiques :  -->
+
+            <!-- text-... / bg-...
+
+                primary     -> bleu
+                secondary   -> gris-bleu
+                success     -> vert
+                danger      -> rouge
+                warning     -> jaune
+                info        -> bleu bizarre 
+                light       -> gris clair
+                dark        -> gris foncé
+                body        -> noir
+                white       -> Blanc
+                         -   -   -
+                muted       -> effacer
+                couleur-50  -> semi-transparant
+            -->
+
+        <!-- Pour créer le votre , allez dans _variables.scss -->
+    
+        
+
+    <!-- 2- Effet de style d'écriture Bootstrap -->
+
+        <!-- Les basiques :  -->
+
+            <!--        LES TEXT- :
+
+                text-couleurs               -> Pour mettre une couleur (voir : 1- Couleurs pour Bootstrap)
+                text-right/left/center      -> Pour placer le texte 
+                text-justify                -> Mettre sur la même ligne vertical
+                                        -   -   -
+                text-lowercase              -> Pour mettre TOUTE les lettres en Miniscules
+                text-uppercase              -> Pour mettre TOUTE les lettres en Majuscules
+                text-capitalize             -> Pour mettre TOUTE les 1ere lettre de chaque mot en Majuscules
+            -->
+
+            <!--        LES FONT- :
+
+                font-italic         -> Pour rendre le texte en italique
+                                -   -   -
+                font-weight-lighter -> Pour obtenir un texte très fin
+                font-weight-light   -> Pour obtenir un texte fin
+                                -   -   -
+                font-weight-normal  -> Pour obtenir un texte normal
+                                -   -   -
+                font-weight-bold    -> Pour obtenir un texte épais
+                font-weight-bolder  -> Pour obtenir un texte très épais
+            -->
+
+
+
+    <!-- 3- Les tailles Bootstrap -->
+            
+        <!-- Les basiques : -->
+            <!-- 
+                h   -> height / hauteur
+                w   -> width  / largeur
+            -->
+            <!-- 
+                h-25/50/75/100      -> L'élément prend la hauteur qui corresponds au chiffre en %
+                w-25/50/75/100      -> L'élément prend la largeur qui corresponds au chiffre en %
+                                -   -   -
+                h-auto              -> L'élément prend une hauteur définie automatiquement
+                w-auto              -> L'élément prend une largeur définie automatiquement
+            -->
+
+
+    <!-- 4- Effet de styles -->
+            
+        <!-- Les basiques : -->
+            <!-- Les bordures : 
+
+                border                                  -> Pour ajouter une bordure tout autour 
+                border-top/bottom/right/left            -> Pour ajouter une bordure ciblée
+                border-top/bottom/right/left-0          -> Rajouter un 0 pour faire disparaitre une bordure ciblée
+                border-"couleurs"                       -> Ajouter une couleur (voir : 1- Couleurs pour Bootstrap)
+                                                -   -   -
+                border-rounded                          -> Pour arrondire légèrement les bordures
+                border-rounded-circle                   -> Pour arrondire completement les bordures
+                border-rounded-pill                     -> Pour avoir des demi-cercles de chaques côtés
+                border-rounded-top/bottom/right/left    -> Pour ciblé la partie à arrondire
+                border-rounded-0                        -> Pour annuler l'effet arrondie sur une bordure
+            -->
+    
+
+    <!-- 5- Les Margin et les Padding -->
+
+            <!-- Les basiques : -->
+                <!-- 
+                    m   -> Margin   / Permet de gérer l'extérieur d'une div
+                    p   -> Padding  / Permet de gérer l'intérieur d'une div
+                -->
+
+                <!-- Pour cibler les m/p... (!coller!)
+
+                    t   -> Top          b   -> Bas          r   -> right           l   -> left
+                    y   -> Vertical  / top+bas              x   -> Horizontale / right+left
+                -->
+
+                <!-- ( Valeur mise par défaut par Bootstrap )
+
+                    m-1/.../5       -> Crée une margin 
+                                    la valeur de 1 vaut 0.25rem - La valeur 3 vaut 1rem / 16px
+                    p-1/.../5       -> Crée un padding
+
+                    m/p-0           -> Supprime tout les margins et paddings
+                    m/p-auto        -> Le mets en Auto ( centrer )
+                -->
+
+    <!-- 6- Les Display -->
+                <!-- 
+                    d   -> display
+                -->
+                <!-- 
+                    d-none              -> L'élément n'aura aucun Display
+                    d-inline            -> L'élément prend 100% de son contenu , et se mets à gauche sans aucune valeur
+                    d-block             -> L'éléments prend 100% de la width de son parent , il casse donc sa ligné et mets ce qui suit l'un après l'autre
+                    d-inline-block      -> Mets les éléments block dans une seule ligne , si pas de place , les mets dans la ligne en dessous
+                    d-flex              -> Mets les élément sur une seule ligne , s'adapte à la width de son parent (flex-wrap pour créer un inline-block en display flex)
+                -->
+                    <!-- Après d-flex
+
+                        flex-wrap               ->
+                        flex-row                ->
+                        flex-row-reverse        ->
+                        flex-column             ->
+                        flex-column-reverse     ->
+                     -->
+</body>
+</html>
