@@ -9,7 +9,7 @@
 
 // Utiliser la couleur via Bootstrap : //
 
-    // $theme-colors : ("METTRE-NOM-VOULU":METTRE-LE-CODE-COULEUR ) ; //
+    // $theme-colors : ("METTRE-NOM-VOULU":METTRE-LE-CODE-COULEUR , "METTRE-NOM-VOULU": #METTRE-LE-CODE-COULEUR ) ; //
 
 
 
@@ -18,4 +18,4 @@
 
 // Couleur background Navbar
     
-$theme-colors:("couleurnavbar":#EAF0FF);
+$theme-colors:("couleurnavbar":#EAF0FF, "cookcouleur":#F2745F, "cookcouleur2":#F3826F);

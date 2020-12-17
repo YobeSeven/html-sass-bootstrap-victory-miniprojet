@@ -1,0 +1,75 @@
+.premier-sec{
+    padding-top: 150px;
+    .sec-cook{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        #cook-1{
+            height: 300px;
+            width: auto;
+        }
+        .card-cook{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 400px;
+            height: 400px;
+            position: relative;
+            h3{
+            position: absolute;
+            top: 15px;
+            color: white;
+            }
+            .card-cook-2{
+                width: 80%;
+                height: 120px;
+                color: white;
+                    p{
+                        margin-top: 20px;
+                    }
+                }
+        }
+        #cook-2{
+            height: 300px;
+            width: auto;
+        }
+        h4{
+            margin-top: 15px;
+            margin-bottom: 15px;
+            color: white;
+        }
+        button{
+            margin-top: 15px;
+            margin-bottom: 15px;
+            background-color: white;
+            padding: 15px;
+            border: 0px solid white;
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+    .box-miam{
+        padding-top: 150px;
+        ul{
+            display: flex;
+            justify-content: center;
+            li{
+                margin-right: 30px;
+                margin-left: 30px;
+                list-style-type: none;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    span{
+                        display: block;
+                        text-align: center;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+}
